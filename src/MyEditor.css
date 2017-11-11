@@ -1,0 +1,8 @@
+.RichEditor-blockquote {    border-left: 5px solid #eee;
+    color: #ff890f;
+    font-family: 'Hoefler Text', 'Georgia', serif;
+    font-style: italic;
+    margin: 16px 0;
+    padding: 10px 20px;
+    background: #ccc;
+}

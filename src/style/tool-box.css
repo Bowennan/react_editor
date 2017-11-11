@@ -1,0 +1,66 @@
+button {
+	border:none;
+}
+.tool{
+	display:flex;
+	position: absolute;
+	box-sizing: border-box;
+	left:0;
+	top: -34px;
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	font-size: 0;
+}
+.tool .item {
+	flex:1;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #a1c6ba;
+	border-left:1px solid #ccc;
+	color:#fff;
+	cursor:pointer;
+}
+
+.tool .item:hover {
+	background:  #a8d9c9;
+}
+
+.tool .font-family {
+	flex:0 0 160px;
+	width:160px;
+	background: #a1c6ba;
+	font-size: 16px;
+	font-weight: bold;
+	height: 30px;
+	text-align: center;
+	border-left:1px solid #ccc;
+}
+
+
+.col-selector, .size-selector, .font-selector {
+	position: relative;
+	z-index: 100;
+	box-sizing: border-box;
+	display: block;
+	height:24px;
+	line-height: 24px;
+	cursor: pointer;
+}
+
+.font-selector {
+    width:160px;
+}
+.col-selector:hover {
+	border:1px solid #feecaf;
+}
+.size-selector:hover {
+	border:1px solid #feecaf;
+}
+.font-selector:hover {
+	border:1px solid #feecaf;
+}
+
+
