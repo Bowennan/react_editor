@@ -1,6 +1,9 @@
 # react_editor
 this is project is descirbed as a editro based on react and draft.js
 
+## clone or download 克隆或者下载到本地  
+cd "this file", npm install,  npm start
+
 ## functions of this editor 编辑器的功能
 * fontSize
 * color
